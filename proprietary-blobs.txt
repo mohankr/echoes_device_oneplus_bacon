@@ -281,5 +281,3 @@ vendor/lib/libchromatix_ov5648_zsl.so
 # NFC
 etc/firmware/libpn547_fw.so:vendor/firmware/libpn547_fw.so
 
-#MKR: test
-xyz.txt

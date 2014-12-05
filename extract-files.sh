@@ -8,7 +8,6 @@ DEVBASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 echo "Deleting $DEVBASE"
 rm -rf $DEVBASE
 
-
 function extract() {
   local _file=$1
   local _basedir=$2
@@ -18,7 +17,6 @@ function extract() {
   }
   [ ! -d "$_basedir" ] && {
     mkdir -p $_basedir
-    return 1
   }
 
   local _optional=no
